@@ -1,0 +1,85 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    background-color: white;
+    padding: 15px 30px;
+}
+
+/* Logo container */
+.logo-container img {
+    width: 120px;
+    height: auto;
+}
+
+/* Links container */
+.links-container ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center; /* Vertically center the links */
+}
+
+/* Nav links */
+.links-container ul li {
+    margin: 0 15px;
+}
+
+.links-container ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+.links-container ul li a:hover {
+    color: var(--primary-color-hover);
+}
+
+/* Buttons */
+.links-container ul button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px; /* More rounded buttons */
+    transition: background-color 0.3s ease;
+}
+
+.links-container ul button:hover {
+    background-color: var(--primary-color-hover);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links-container ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links-container ul li {
+        margin: 10px 0;
+    }
+
+    .links-container ul button {
+        margin: 10px 0;
+    }
+}
