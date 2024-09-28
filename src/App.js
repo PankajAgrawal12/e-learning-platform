@@ -9,6 +9,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage'
 import CoursesPage from './pages/CoursesPage';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path="" element={<CoursesPage />} />
         <Route path="" element={<CoursesPage />} />
       </Routes>
-      {/* <Navbar /> */}
+      <Footer/>
     </>
   );
 }
