@@ -28,26 +28,3 @@
     margin-left: 30%;
     margin-top: -32%;
 }
-
-/* Background Image for Group3 */
-.background-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: auto;
-    height: 100vh; /* Make it cover the full height of the viewport */
-    background-image: url('../images/Group 3.png');
-    background-size: contain; /* Ensures it maintains its aspect ratio */
-    background-repeat: no-repeat;
-    z-index: -1; /* Ensure it stays behind all other content */
-    pointer-events: none; /* Ensure the background doesn't block any clicks */
-    opacity: 0.8; /* Add slight transparency if needed */
-    margin-top:-5%;
-    margin-right:-8%;
-}
-
-/* Ensure hero section and navbar content stays above the image */
-.hero-section, .navbar-container {
-    position: relative;
-    z-index: -1; /* Ensures this stays on top of the background */
-}

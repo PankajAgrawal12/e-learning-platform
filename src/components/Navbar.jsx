@@ -14,7 +14,7 @@ function Navbar() {
                 <div className='links-container'>
                     <ul>
                         <li>
-                            <Link to="/homePage">Home</Link>
+                            <Link to="/homepage">Home</Link>
                         </li>
                         <li>
                             <Link to="/courses">Courses</Link>
@@ -26,7 +26,7 @@ function Navbar() {
                             <Link to="/blog">Blog</Link>
                         </li>
                         <li>
-                            <Link to="/aboutUs">About Us</Link>
+                            <Link to="/aboutus">About Us</Link>
                         </li>
                         <button>Login</button>
                         <button>Sign Up</button>

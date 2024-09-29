@@ -1,5 +1,5 @@
 .footer-top{
-    display: flex;                  /* establish flex container */
+  display: flex;                  /* establish flex container */
   flex-direction: row;            /* default value; can be omitted */
   flex-wrap: nowrap;              /* default value; can be omitted */
   justify-content: space-between; /* switched from default (flex-start, see below) */
@@ -29,7 +29,5 @@
 li{
     list-style:none;
     margin-left:-35px;
-}
-h2{
-    color:var(--primary-color);
+    padding:5px;
 }

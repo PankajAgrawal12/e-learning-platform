@@ -11,14 +11,14 @@ function Footer() {
 
                 <div className='footer-top'>
                     <div className="footer-about-us">
-                        <h2>About Us</h2>
+                        <h2 style={{ color: 'var(--primary-color)'}}>About Us</h2>
                         <p>
                             Lörem ipsum diren vofangar emedan tevinde inklusive göbement i at om miligt och kvaside och previs dialiga för väkör, ultrav. Tel heteropp suhebel min poska pårade så betoren men netävis sapåns. Tilig exosade.
                             Lörem ipsum trett gåsamma är änas. Perugande syng benör deheten semikarade sev ör. Rer kaling mimibel.
                         </p>
                     </div>
                     <div className="footer-useful-links">
-                        <h2>Useful Links</h2>
+                        <h2 style={{ color: 'var(--primary-color)' }}>Useful Links</h2>
                         <ul>
                             <li>Home</li>
                             <li>About Us</li>
@@ -29,7 +29,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="footer-connect-with-us">
-                        <h2>Connect With Us</h2>
+                        <h2 style={{ color: 'var(--primary-color)'}}>Connect With Us</h2>
                         <div>
                             <ul>
                                 <li>

@@ -6,9 +6,6 @@ import Group3 from '../images/Group 3.png';
 function HomePage() {
   return (
     <>
-      {/* Add the background image using an img tag */}
-      {/* <img src={Group3} className="background-image" alt="Background" /> */}
-      
       <div className='hero-section'>
         <div className='left-hero-container'>
           <div className='heading'>

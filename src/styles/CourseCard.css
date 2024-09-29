@@ -1,0 +1,32 @@
+.card-conatiner{
+    /* border:1px solid black; */
+    width:374px;
+    border-radius:20px;
+}
+.card-image{
+    margin:18px;
+}
+.card-name{
+    margin:18px;
+}
+.card-footer{
+    margin:18px;
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between;
+}
+.card-btn{
+    border-radius:25px;
+    padding: 4px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    width: 80px;
+    height:40px;
+    margin-top:2px;
+    margin-right:4px;
+}
+button:hover{
+    background-color: var(--primary-color-hover);
+}
